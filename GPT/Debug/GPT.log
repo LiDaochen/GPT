@@ -1,0 +1,20 @@
+﻿生成启动时间为 2018/12/11 20:27:54。
+     1>项目“F:\Projects\C++Project\GPT\GPT\GPT.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ctrl.cpp GPT.cpp
+         GPT.cpp
+         ctrl.cpp
+     1>f:\projects\c++project\gpt\gpt\ctrl.cpp(84): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 参见“sprintf”的声明
+     1>f:\projects\c++project\gpt\gpt\ctrl.cpp(224): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\projects\c++project\gpt\gpt\ctrl.cpp(269): warning C4018: “<”: 有符号/无符号不匹配
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Projects\C++Project\GPT\Debug\GPT.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\Projects\C++Project\GPT\Debug\GPT.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Projects\C++Project\GPT\Debug\GPT.lib" /MACHINE:X86 Debug\ctrl.obj
+         Debug\GPT.obj
+         GPT.vcxproj -> F:\Projects\C++Project\GPT\Debug\GPT.exe
+     1>已完成生成项目“F:\Projects\C++Project\GPT\GPT\GPT.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.43
